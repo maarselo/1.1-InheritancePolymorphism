@@ -1,30 +1,41 @@
-package Level_One;
+package Level_One_Ex1;
 
-public abstract class Instrument {
+abstract class Instrument {
     private String name;
-    private int price;
+    private double price;
 
-    public Instrument (String name, int price) {
+    static {
+        System.out.println("Class charged into memory");
+    }
+    {
+        System.out.println("Building the object...");
+    }
+    public Instrument (String name, double price) {
         this.name = name;
         this.price = price;
     }
     public abstract void play();
 
-    public String getName() {return name;}
-    public int getPrice() {return price;}
+    public String getName() { return name; }
+    public double getPrice() { return price; }
 }
 
 abstract class WindInstrument extends Instrument{
-    public WindInstrument (String name, int price) {
+    public WindInstrument (String name, double price) {
         super(name, price);
     }
     @Override
     public void play() {
         System.out.println("A wind instrument is playing.");
     }
+
+    static String type = "Wind Instrument";
+    static void showType() {
+        System.out.println("Type: " + type );
+    }
 }
 abstract class StringInstrument extends Instrument{
-    public StringInstrument (String name, int price) {
+    public StringInstrument (String name, double price) {
         super(name, price);
     }
     @Override
@@ -34,7 +45,7 @@ abstract class StringInstrument extends Instrument{
 }
 
 abstract class PercussionInstrument extends Instrument{
-    public PercussionInstrument (String name, int price) {
+    public PercussionInstrument (String name, double price) {
         super(name, price);
     }
     @Override
