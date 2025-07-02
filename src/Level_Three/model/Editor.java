@@ -14,14 +14,6 @@ public class Editor {
         this.news = new ArrayList<>();
     }
 
-    public void addNews(News news) {
-        if (news == null)
-            throw new NullPointerException("The object cannot be null.");
-        this.news.add(news);
-        System.out.println("Added Successfully.");
-    }
-
-
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
     public String getDni() {return dni;}
