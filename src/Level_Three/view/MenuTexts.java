@@ -1,6 +1,6 @@
-package Level_Three.menu;
+package Level_Three.view;
 
-public class Menu {
+public class MenuTexts {
     public static final String menu = """
             MENU PRINCIPAL
                 1.Add editor.
