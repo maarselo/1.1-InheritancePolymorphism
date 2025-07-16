@@ -56,3 +56,38 @@ git clone https://github.com/your-username/java-oop-sprint1.git
 
 # Navigate into the project directory
 cd java-oop-sprint1
+```
+## ▶️ Running the Project
+
+To run the program:
+
+1. Open the class that contains the `main()` method.
+2. Click the green **Run** button in IntelliJ IDEA, or press **Shift + F10**.
+3. If IntelliJ prompts you to sync or import dependencies, confirm the action.
+
+Each exercise (level) can be executed individually.  
+For example, Level 3 includes a console-based menu where you can interact with the news system.
+
+---
+
+## 🌐 Deployment
+
+This project is intended to run in a **local development environment** only.  
+No production deployment configuration has been defined.
+
+Future improvements could include turning the project into a web or desktop application.
+
+---
+
+## 🤝 Contributions
+
+Contributions are always welcome! If you'd like to improve or extend the project:
+
+1. Fork this repository.
+2. Create a new branch: `git checkout -b feature/YourFeatureName`
+3. Make your changes and commit them: `git commit -m "Add: Your meaningful commit message"`
+4. Push your branch to your fork: `git push origin feature/YourFeatureName`
+5. Open a pull request and describe your changes clearly.
+
+Thanks for your interest and support! 🚀
+
