@@ -8,6 +8,6 @@ public class MenuTexts {
                 3.Add news into a editor
                 4.Delete news
                 5.Show news from a editor
-                6.Calculate the price of a movie
-                6.Calculate the punctuation of a movie""";
+                6.Calculate the price of a news
+                6.Calculate the punctuation of a news""";
 }

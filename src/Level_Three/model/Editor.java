@@ -14,13 +14,22 @@ public class Editor {
         this.news = new ArrayList<>();
     }
 
+
     public void addNews(News n) {
         news.add(n);
     }
-
     public void deleteNews(News n) {
         news.remove(n);
     }
+
+    public News getNewByTittle(String tittle) {
+        for (News n : news) {
+            if (n.getTittle().equalsIgnoreCase(tittle))
+                return(n);
+        }
+        return (null);
+    }
+
     public String getName() {return name;}
     public void setName(String name) {this.name = name;}
     public String getDni() {return dni;}
