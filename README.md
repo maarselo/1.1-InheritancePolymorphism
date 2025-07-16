@@ -1,4 +1,4 @@
-# 🎵 Java OOP Exercises - Sprint 1
+# 🎵  1.1-Inheritance and Polymorphism
 
 > A complete set of exercises focused on Object-Oriented Programming in Java.  
 This project includes implementations from basic inheritance and interfaces to more advanced modeling with abstract classes and complex relationships.
@@ -52,7 +52,7 @@ To get a local copy of the project:
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-username/java-oop-sprint1.git
+git clone https://github.com/maarselo/1.1-InheritancePolymorphism.git
 
 # Navigate into the project directory
 cd java-oop-sprint1
