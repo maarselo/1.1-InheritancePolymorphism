@@ -6,7 +6,6 @@ public class Main {
         System.out.println(Car.brand);
         System.out.println(Car.getModel());
 
-        //Car.brand = "Toyota";
         Car.setModel("Corolla");
         System.out.println(Car.getModel());
         Car.brake();

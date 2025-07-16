@@ -22,8 +22,8 @@ public class MenuManager {
                 case 3 -> addNewsToEditor();
                 case 4 -> deleteNews();
                 case 5 -> showAllNewsByEditor();
-                case 6 -> calculateScore();
-                case 7 -> calculatePrice();
+                case 6 -> calculatePrice();
+                case 7 -> calculateScore();
                 case 0 -> System.out.println("Exiting...");
                 default -> System.out.println("Invalid option.");
             }
@@ -48,7 +48,7 @@ public class MenuManager {
         if (editor == null) {
             System.out.println("Editor not found.");return;
         }
-        System.out.println("Type of new:\n1.Soccer\n2.Basketball\n3.Tennis\n4.F15.Motorcycling\nPut in text");
+        System.out.println("Type of new:\n1.Soccer\n2.Basketball\n3.Tennis\n4.F1\n5.Motorcycling\nPut in text");
         String type = keyboard.nextLine().toLowerCase();
         System.out.print("Which is the tittle: ");
         String tittle = keyboard.nextLine();
@@ -90,7 +90,8 @@ public class MenuManager {
             }
             default -> System.out.println("Invalid option");
         }
-        NewsService.addNewsToEditor(news, editor);
+        if (news != null)
+            NewsService.addNewsToEditor(news, editor);
     }
     public static void deleteNews() {
         System.out.print("What is the dni of the editor:");

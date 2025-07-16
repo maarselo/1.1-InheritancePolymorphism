@@ -9,5 +9,5 @@ public class MenuTexts {
                 4.Delete news
                 5.Show news from a editor
                 6.Calculate the price of a news
-                6.Calculate the punctuation of a news""";
+                7.Calculate the punctuation of a news""";
 }
