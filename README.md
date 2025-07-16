@@ -57,6 +57,7 @@ git clone https://github.com/maarselo/1.1-InheritancePolymorphism.git
 # Navigate into the project directory
 cd 1.1-InheritancePolymorphism
 ```
+Or if you have Intellij, open, and press over `Clone Repository`, adn put the URL, and select the directory or if you already have it cloned, click on open and select the local copy to open it. 
 ## ▶️ Running the Project
 
 To run the program:
