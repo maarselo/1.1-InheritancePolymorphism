@@ -55,7 +55,7 @@ To get a local copy of the project:
 git clone https://github.com/maarselo/1.1-InheritancePolymorphism.git
 
 # Navigate into the project directory
-cd java-oop-sprint1
+cd 1.1-InheritancePolymorphism
 ```
 ## ▶️ Running the Project
 
