@@ -48,7 +48,7 @@ public class MenuManager {
         if (editor == null) {
             System.out.println("Editor not found.");return;
         }
-        System.out.println("Type of new:\n1.Soccer\n2.Basketball\n3.Tennis\n4.F1\n5.Motorcycling\nPut in text");
+        System.out.println("Type of new:\n1.Soccer\n2.Basketball\n3.Tennis\n4.F1\n5.Motorcycling\n");
         int type = keyboard.nextInt();
         keyboard.nextLine();
         System.out.print("Which is the tittle: ");
