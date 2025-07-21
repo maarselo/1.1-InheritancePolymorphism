@@ -49,13 +49,14 @@ public class MenuManager {
             System.out.println("Editor not found.");return;
         }
         System.out.println("Type of new:\n1.Soccer\n2.Basketball\n3.Tennis\n4.F1\n5.Motorcycling\nPut in text");
-        String type = keyboard.nextLine().toLowerCase();
+        int type = keyboard.nextInt();
+        keyboard.nextLine();
         System.out.print("Which is the tittle: ");
         String tittle = keyboard.nextLine();
 
         News news = null;
         switch (type) {
-            case ("soccer") -> {
+            case (1) -> {
                 System.out.print("Competition: ");
                 String competition = keyboard.nextLine();
                 System.out.print("Club: ");
@@ -64,26 +65,26 @@ public class MenuManager {
                 String player = keyboard.nextLine();
                 news = new SoccerNews(tittle, competition, club, player);
             }
-            case "basketball" -> {
+            case (2) -> {
                 System.out.print("Competition: ");
                 String competition = keyboard.nextLine();
                 System.out.print("Club: ");
                 String club = keyboard.nextLine();
                 news = new BasketballNews(tittle, competition, club);
             }
-            case "tennis" -> {
+            case (3) -> {
                 System.out.print("Competition: ");
                 String competition = keyboard.nextLine();
                 System.out.print("Tennis player: ");
                 String player = keyboard.nextLine();
                 news = new TennisNews(tittle, competition, player);
             }
-            case "f1" -> {
+            case (4) -> {
                 System.out.print("Team: ");
                 String team = keyboard.nextLine();
                 news = new F1News(tittle, team);
             }
-            case "motorcycling" -> {
+            case (5) -> {
                 System.out.print("Team: ");
                 String team = keyboard.nextLine();
                 news = new MotorcyclingNews(tittle, team);
