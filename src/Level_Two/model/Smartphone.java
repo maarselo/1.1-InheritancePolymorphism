@@ -1,6 +1,9 @@
 package Level_Two.model;
 
-public class Smartphone extends Phone implements Camara, Clock{
+import Level_Two.interfaces.Camara;
+import Level_Two.interfaces.Clock;
+
+public class Smartphone extends Phone implements Camara, Clock {
     public Smartphone (String brand, String model) {
         super(brand, model);
     }
