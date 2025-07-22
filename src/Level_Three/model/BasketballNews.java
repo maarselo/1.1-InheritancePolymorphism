@@ -8,7 +8,7 @@ public class BasketballNews extends News{
         super (tittle);
         this.competition = competition;
         this.club = club;
-        super.price = calculateNewsPrice();
+        setPrice(calculateNewsPrice());
         super.punctuation = calculateNewsPunctuation();
     }
 
@@ -33,6 +33,8 @@ public class BasketballNews extends News{
             total += 1.0f;
         return (total);
     }
+
+
 
     public String getCompetition() {return competition;}
     public String getClub() {return club;}

@@ -6,14 +6,12 @@ public class Editor {
     private String name;
     private final String dni;
     static double salary = 1500;
-    private ArrayList<News> news = null;
+    private ArrayList<News> news = new ArrayList<>();
 
     public Editor(String name, String dni) {
         this.name = name;
         this.dni = dni;
-        this.news = new ArrayList<>();
     }
-
 
     public void addNews(News n) {
         news.add(n);
